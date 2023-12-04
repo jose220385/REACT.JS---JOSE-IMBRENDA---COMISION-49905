@@ -1,0 +1,11 @@
+[
+    {
+      "rubro":"Aluminio" ,
+      "subRubros":["Rollos", "Bandejas", "Moldes", "Otros"]
+    },
+    {
+        "rubro":"Carton" ,
+        "subRubros":["Bandejas", "Bandejas", "Moldes", "Otros"]
+    }
+
+]

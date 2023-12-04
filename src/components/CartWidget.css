@@ -1,0 +1,25 @@
+.cartWidget{
+    display: flex;
+}
+
+h4{
+    font-size: 30px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+span{
+    border-radius: 100%;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
