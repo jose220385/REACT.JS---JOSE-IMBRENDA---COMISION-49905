@@ -1,13 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar  from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import { MainRouter } from './router/MainRouter';
+import { useEffect } from 'react';
+useEffect
+MainRouter
 
 function App() {
 
   return (
     <div style ={{width:'100vw', height:'100vh'}}>
-         <NavBar/>
-         <ItemListContainer greeting="Mi primer Componente"/>
+      <MainRouter/>
     </div>
     
     

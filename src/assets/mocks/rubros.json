@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Aluminio",
+        "subCategory":["Rollos", "Bandejas", "Tapas para bandeja", "Moldes", "Otros"]
+    },
+    {
+        "name": "Carton",
+        "subCategory":["Discos", "Tiras", "Bandejas Eco", "Bandejas Reforzadas", "Cajas de Pizza y Empanadas", "Bandejas Doradas"]
+    },
+    {
+        "name": "Film Autoadherente",
+        "subCategory":["Repuestos", "Resinite"]
+    },
+    {
+        "name": "Cintas",
+        "subCategory":["Cintas de Empaque", "Cintas de Enmascarar"]
+    },
+    {
+        "name": "Carton",
+        "subCategory":["Discos", "Tiras", "Bandejas Eco", "Bandejas Reforzadas", "Cajas de Pizza y Empanadas", "Bandejas Doradas"]
+    },
+    {
+        "name": "Papel",
+        "subCategory":["Papel Cortado en Resmas", "Bobinas", "Sobres/Bolsas", "Moldes Fantasia", "Blondas", "Rollos térmicos", "Rollos Obra", "Otros"]
+    },
+    {
+        "name": "Plastico",
+        "subCategory":["Bandejas Eco", "Bandejas Microondas", "Estuches", "Torteras", "Potes", "Platos", "Vasos", "Cubiertos"]
+    },
+    {
+        "name": "Polietileno",
+        "subCategory":["Rollos de Arranque", "Laminas de Folex", "Bolsas Camiseta", "Bolsas de residuo", "Otros"]
+    },
+    {
+        "name": "Poliestireno Expandido",
+        "subCategory":["Bandejas", "Vasos Térmicos", "Otros"]
+    },
+    {
+        "name": "Otros",
+        "subCategory":["Porta Bobinas y Cintas", "Banditas Elasticas", "Guantes Descartables", "Otros"]
+    }
+]

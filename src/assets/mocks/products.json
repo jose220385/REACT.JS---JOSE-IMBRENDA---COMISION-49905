@@ -1,0 +1,44 @@
+[
+  {
+    "id": 10101001001,
+    "title": "Rollo de Aluminio de 5m",
+    "description": "Rollo de Aluminio para el uso hogareño",
+    "price": 549,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Excelence",
+    "category": "Aluminio",
+    "subCategory": "Rollos",
+    "thumbnail": "...",
+    "images": ["...", "...", "..."]
+  },
+  {
+    "id": 10101002001,
+    "title": "Rollo de Aluminio de 1/2 Kg",
+    "description": "Rollo de Aluminio para el uso gastronómico",
+    "price": 3000,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Excelence",
+    "category": "Aluminio",
+    "subCategory": "Rollos",
+    "thumbnail": "...",
+    "images": ["...", "...", "..."]
+  },
+  {
+    "id": 10101003001,
+    "title": "Rollo de Aluminio de 1 Kg",
+    "description": "Rollo de Aluminio para el uso gastronómico",
+    "price": 5500,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Excelence",
+    "category": "Aluminio",
+    "subCategory": "Rollos",
+    "thumbnail": "...",
+    "images": ["...", "...", "..."]
+  }
+]
