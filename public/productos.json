@@ -1,0 +1,220 @@
+[
+    {
+      "id": "101",
+      "name": "Aluminio",
+      "subCategory": [
+        {
+          "id": "10101",
+          "name": "Rollos"
+        },
+        {
+          "id": "10102",
+          "name": "Bandejas"
+        },
+        {
+          "id": "10103",
+          "name": "Tapas"
+        },
+        {
+          "id": "10105",
+          "name": "Moldes"
+        },
+        {
+          "id": "10106",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Carton",
+      "subCategory": [
+        {
+          "id": "10402",
+          "name": "Discos"
+        },
+        {
+          "id": "10401",
+          "name": "Tiras"
+        },
+        {
+          "id": "10403",
+          "name": "Bandejas"
+        },
+        {
+          "id": "10406",
+          "name": "Cajas"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "Film",
+      "subCategory": [
+        {
+          "id": "10603",
+          "name": "Repuestos"
+        },
+        {
+          "id": "10602",
+          "name": "Resinite"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Cintas",
+      "subCategory": [
+        {
+          "id": "10502",
+          "name": "Empaque"
+        },
+        {
+          "id": "10501",
+          "name": "Enmascarar"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Papel",
+      "subCategory": [
+        {
+          "id": "10801",
+          "name": "Resmas"
+        },
+        {
+          "id": "10803",
+          "name": "Bobinas"
+        },
+        {
+          "id": "10819",
+          "name": "Sobres-Bolsas"
+        },
+        {
+          "id": "10806",
+          "name": "Moldes"
+        },
+        {
+          "id": "10203",
+          "name": "Blondas"
+        },
+        {
+          "id": "10306",
+          "name": "Rollos-termicos"
+        },
+        {
+          "id": "10825",
+          "name": "Rollos-Obra"
+        },
+        {
+          "id": "10899",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Plastico",
+      "subCategory": [
+        {
+          "id": "10901",
+          "name": "Bandejas-Eco"
+        },
+        {
+          "id": "10903",
+          "name": "Bandejas-Microondas"
+        },
+        {
+          "id": "10913",
+          "name": "Estuches"
+        },
+        {
+          "id": "10914",
+          "name": "Torteras"
+        },
+        {
+          "id": "10905",
+          "name": "Potes"
+        },
+        {
+          "id": "10908",
+          "name": "Platos"
+        },
+        {
+          "id": "10909",
+          "name": "Vasos"
+        },
+        {
+          "id": "10918",
+          "name": "Cubiertos"
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "name": "Polietileno",
+      "subCategory": [
+        {
+          "id": "11201",
+          "name": "Arranque"
+        },
+        {
+          "id": "11203",
+          "name": "Folex"
+        },
+        {
+          "id": "11204",
+          "name": "Camiseta"
+        },
+        {
+          "id": "11207",
+          "name": "Residuo"
+        },
+        {
+          "id": "11215",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Poliestireno Expandido",
+      "subCategory": [
+        {
+          "id": "11001",
+          "name": "Bandejas"
+        },
+        {
+          "id": "11002",
+          "name": "Vasos"
+        },
+        {
+          "id": "11003",
+          "name": "Otros"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "Otros",
+      "subCategory": [
+        {
+          "id": "11301",
+          "name": "Dispensers"
+        },
+        {
+          "id": "11307",
+          "name": "Banditas"
+        },
+        {
+          "id": "11303",
+          "name": "Guantes"
+        },
+        {
+          "id": "11315",
+          "name": "Otros"
+        }
+      ]
+    }
+  ]

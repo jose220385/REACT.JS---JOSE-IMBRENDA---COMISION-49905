@@ -4,11 +4,12 @@
 }
 
 .links{
-    color: white;
+    color: white !important;
     text-shadow: 2px 2px 1px #413f46;
 }
 
-#collasible-nav-dropdown{
+/* #collasible-nav-dropdown{
     color: white;
     text-shadow: 2px 2px 1px #413f46;
 }
+ */

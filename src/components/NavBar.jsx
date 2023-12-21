@@ -14,9 +14,9 @@ const NavBar = () => {
     "https://6580ac733dfdd1b11c41efc7.mockapi.io/royalplast/category"
   );
   const { productsData } = useGetProductsInfo(url);
-  const subCategories = productsData.subCategory
+  
 console.log(productsData)
-console.log(subCategories)
+
   return (
   <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary otrosEstilos">
     <Container>
@@ -26,33 +26,20 @@ console.log(subCategories)
         <Nav className="me-auto">
           <Nav.Link href="#features" className="links">Quiénes Somos</Nav.Link>
           <Nav.Link href="#pricing" className="links">Dónde estamos</Nav.Link>
-          <NavDropdown title={"Productos"} id="collasible-nav-dropdown" className="links">
+          <NavDropdown title={"Productos"} id="collasible-nav-dropdown" className="links" style={{color:"white"}}>
             {
               productsData.map(category =>{
-                return
-                  <NavDropdown key= {category.id} title={category.title} id="collasible-nav-dropdown">
+                return(
+                  <NavDropdown key= {category.id} title={category.title} id="collasible-nav-dropdown" style={{color:"white"}}>
                   {
-                    subCategories.map(subCategory =>{
-                      return 
-                      <NavDropdown.Item key={subCategory.id} href="#action/3.1">${subCategory.title}</NavDropdown.Item>
-                    })}
+                    category.subCategory.map(subCategory =>{
+                      return (
+                      <NavDropdown.Item key={subCategory.id} className="black"><Link to={`/category/${category.title}/${subCategory.title}`} ></Link>{subCategory.title}</NavDropdown.Item>
+              )})}
                   </NavDropdown>
+                )
               })
             }
-            
-            
-             {/* <NavDropdown title="Aluminio" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Rollos</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">Bandejas</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">Moldes</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">Otros</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Aluminio" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Rollos</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">Bandejas</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">Moldes</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">Otros</NavDropdown.Item> 
-            </NavDropdown> */}
             
           </NavDropdown>
         </Nav>
