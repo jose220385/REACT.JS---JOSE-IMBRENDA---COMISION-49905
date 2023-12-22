@@ -24,9 +24,9 @@ const NavBar = () => {
       className="bg-body-tertiary otrosEstilos"
     >
       <Container>
-        <Link to={"/"}>
-          <Navbar.Brand className="links">Papelera Royal Plast</Navbar.Brand>
-        </Link>
+        
+          <Navbar.Brand ><Link className="links" to={"/"}>Papelera Royal Plast</Link></Navbar.Brand>
+        
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
