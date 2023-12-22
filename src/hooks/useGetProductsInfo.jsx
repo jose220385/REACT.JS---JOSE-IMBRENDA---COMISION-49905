@@ -4,12 +4,12 @@ import { getProductsInfo } from "../services"
  * @description Hook que retorna los valores de la API de productos
  * @returns {Array}
  */
-export const useGetProductsInfo = (url)=>{
+export const useGetProductsInfo = (url, dependencia="")=>{
     const [productsData, setProductsData] = useState([])
 
     useEffect(()=>{
         getProductsInfo(url).then(res => {setProductsData(res.data)}).catch(err => {console.log(err)})
-    },[])
+    },[dependencia])
 
     return {productsData}
 }

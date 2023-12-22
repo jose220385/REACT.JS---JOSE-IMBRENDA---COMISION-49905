@@ -4,7 +4,6 @@ import { useGetProductsInfo } from "../hooks/useGetProductsInfo";
 
 export const ItemDetailContainer = () => {
   const { id } = useParams();
-  //console.log(id.substring(1, 9))
   const url = new URL(
     "https://6580ac733dfdd1b11c41efc7.mockapi.io/royalplast/products"
   );
