@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react"
-import { getProductsInfo } from "../services"
 import {collection, getDocs, getFirestore} from "firebase/firestore"
 
 /**
  * @description Hook que retorna los valores de productos
  * @returns {Array}
  */
-export const useGetProductsInfo = (url, collectionName="products")=>{
+export const useGetProductsInfo = (collectionName="products")=>{
     const [productsData, setProductsData] = useState([])
 
     useEffect(()=>{

@@ -1,30 +1,24 @@
 import { useParams } from "react-router-dom";
 import ProductCard from "../components/productCard";
-import { useGetProductsInfo } from "../hooks/useGetProductsInfo";
+import { useGetProductById } from "../hooks/useGetProductById";
 
 export const ItemDetailContainer = () => {
   const { id } = useParams();
-  const url = new URL(
-    "https://6580ac733dfdd1b11c41efc7.mockapi.io/royalplast/products"
-  );
-  url.searchParams.append("id", id.substring(1, 9));
-  const { productsData } = useGetProductsInfo(url);
-  //desestructuramos el objeto obtenido del custom Hook useGetProductsInfo
-  //console.log(productsData)
+  console.log(id)
 
+  let idWithoutPoints = id.substring(1);
+  console.log(idWithoutPoints)
+  const {productById} = useGetProductById(id)
+    console.log(productById)
   return (
     <div style={{ display: "flex", flexWrap: "wrap", gap: 15 }}>
-      {productsData.map((product) => {
-        return (
           <ProductCard
-            id={product.id}
-            image={product.image}
-            title={product.title}
-            description={product.description}
-            price={product.price}
+            id={productById.id}
+            image={productById.image}
+            title={productById.title}
+            description={productById.description}
+            price={productById.price}
           />
-        );
-      })}
     </div>
   );
 };

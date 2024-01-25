@@ -4,15 +4,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./NavBar.css";
-import CartWidget from "./CartWidget";
+import {CartWidget} from "./CartWidget";
 import { Link } from "react-router-dom";
 import { useGetProductsInfo } from "../hooks/useGetProductsInfo";
 import { useGetCategories } from "../hooks/useGetCategories";
 
 const NavBar = () => {
-  /* const url = new URL(
-    'https://6580ac733dfdd1b11c41efc7.mockapi.io/royalplast/category'
-  ); */
+ 
   const { categories } = useGetCategories('category');
 
 
@@ -38,8 +36,8 @@ const NavBar = () => {
               style={{ color: "white" }}
             >
               {categories.map((obj) => {
+                return(
               obj.categories.map((category,index)=>{
-                console.log(category)
                 return (
                   <NavDropdown.Item key={index} >
                     <Link to={`/category/${category}`} className="black">
@@ -47,7 +45,8 @@ const NavBar = () => {
                     </Link>
                   </NavDropdown.Item> 
                 );
-              })})}
+              })
+              )})}
             </NavDropdown>
           </Nav>
           <Nav>

@@ -1,0 +1,14 @@
+.ItemCountContainer{
+    display: flex;
+    align-Items: center;
+    justify-Content: center;
+    gap:5px;
+    flex-Direction: column;
+}
+
+.ItemCountButtonsContainer{
+    display: flex ;
+    width: 50%;
+    align-Items: center;
+    justify-Content: space-around;
+}
