@@ -8,14 +8,13 @@ import CartWidget from "./CartWidget";
 import { Link } from "react-router-dom";
 import { useGetProductsInfo } from "../hooks/useGetProductsInfo";
 import { useGetCategories } from "../hooks/useGetCategories";
-useGetCategories
 
 const NavBar = () => {
-  const url = new URL(
+  /* const url = new URL(
     'https://6580ac733dfdd1b11c41efc7.mockapi.io/royalplast/category'
-  );
-  const { categories } = useGetCategories(url);
-  console.log(categories);
+  ); */
+  const { categories } = useGetCategories('category');
+
 
   return (
     <Navbar
@@ -38,15 +37,17 @@ const NavBar = () => {
               className="links"
               style={{ color: "white" }}
             >
-              {categories.map((category) => {
+              {categories.map((obj) => {
+              obj.categories.map((category,index)=>{
+                console.log(category)
                 return (
-                  <NavDropdown.Item key={category.id} >
-                    <Link to={`/category/${category.name}`} className="black">
-                      {category.name}
+                  <NavDropdown.Item key={index} >
+                    <Link to={`/category/${category}`} className="black">
+                      {category}
                     </Link>
                   </NavDropdown.Item> 
                 );
-              })} 
+              })})}
             </NavDropdown>
           </Nav>
           <Nav>
