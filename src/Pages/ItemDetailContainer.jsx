@@ -8,7 +8,7 @@ export const ItemDetailContainer = () => {
 
   let idWithoutPoints = id.substring(1);
   console.log(idWithoutPoints)
-  const {productById} = useGetProductById(id)
+  const {productById} = useGetProductById(idWithoutPoints)
     console.log(productById)
   return (
     <div style={{ display: "flex", flexWrap: "wrap", gap: 15 }}>

@@ -6,10 +6,7 @@ export const Home = () =>{
 
     useSetHeadInfo('Papelera Royal Plast')
 
-    const url = new URL('https://6580ac733dfdd1b11c41efc7.mockapi.io/royalplast/products')
-    //url.searchParams.append('id', '10101001')
-
-    const {productsData} = useGetProductsInfo(url)
+    const {productsData} = useGetProductsInfo()
   //desestructuramos el objeto obtenido del custom Hook useGetProductsInfo
     console.log(productsData)
     return(

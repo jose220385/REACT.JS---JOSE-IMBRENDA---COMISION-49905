@@ -13,7 +13,7 @@ const ProductCard = ({id, image, title, description, price}) => {
                 <Card.Text>
                 {description}
                 </Card.Text>
-                <div>{price}</div>
+                <div className="priceContainer"><h5>${price}</h5></div>
                 <ItemCount/>
                 <div className="masInfo" style={{ display: "flex", alignItems:"center", justifyContent:"center", gap:5, width:"100%", margin: 5}}>
                 <Link to={`/item/:${id}`}><Button variant="primary">Más Info</Button></Link>

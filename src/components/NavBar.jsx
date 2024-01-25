@@ -22,9 +22,9 @@ const NavBar = () => {
     >
       <Container>
         
-          <Navbar.Brand ><Link className="links" to={"/"}>Papelera Royal Plast</Link></Navbar.Brand>
+        <Nav.Link><Link className="links" to={"/"}><h1>Papelera Royal Plast</h1></Link></Nav.Link>
         
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link className="links">Quiénes Somos</Nav.Link>
