@@ -15,10 +15,14 @@
 
  #collasible-nav-dropdown{
     color: white;
-    text-shadow: 2px 2px 1px #413f46;
 }
-
 
 .me-auto * {
     margin-right: 15px;
+}
+
+.black{
+    text-decoration: none;
+    color: black;
+    text-shadow: none;
 }
